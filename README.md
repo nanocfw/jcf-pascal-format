@@ -132,11 +132,12 @@ Original license: MPL 1.1.
 
 1. You must have both [Free Pascal](http://freepascal.org) compiler and [VS Code](https://code.visualstudio.com) already installed on your system.
 2. Clone or download this `jcf-pascal-format` GitHub repo into your own folder.
-3. Start your VS Code and open `pascal_format.lpi` project within `jcf-pascal-format/App` folder.
-4. Build it via VS Code's **Tasks** → **Run Task...** → **pascal-format: Build Release** menu.
-5. Wait while FPC is building the jcf-pascal-format project.
-6. Open `test.pas` file from `jcf-pascal-format` folder.
-7. Test `JCF` program using **Tasks** → **Run Task...** → **pascal-format: Test CLI Program** menu and you should see the result in the `test.pas` file.
+3. Start your VS Code and open `jcf-pascal-format` folder.
+4. Create Output directory `mkdir ./Output`
+5. Build it via VS Code's **Tasks** → **Run Task...** → **pascal-format: Build Release** menu.
+6. Wait while FPC is building the jcf-pascal-format project.
+7. Open `test.pas` file from `jcf-pascal-format` folder.
+8. Test `JCF` program using **Tasks** → **Run Task...** → **pascal-format: Test CLI Program** menu and you should see the result in the `test.pas` file.
 
 ## How To Use jcf-pascal-format in VS Code
 

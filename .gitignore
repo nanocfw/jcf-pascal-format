@@ -11,4 +11,5 @@ debug/
 *.ppu
 *.o
 pascal-format
-
+pascal_format
+Output/*.*
